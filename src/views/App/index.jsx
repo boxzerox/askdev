@@ -30,12 +30,8 @@ const styles = {
 
 const App = ({ classes }) => (
   <div className={classes.App}>
-    <Header title="AskDEV" />
-    <p className={classes.intro}>
-    AskDEV is a directory of nOS devs who would like to anwser your questions
-    </p>
-    <p className={classes.intro}>Pay a small fee in GAS for questions</p>
-    <hr className={classes.lineBreak} />
+    {/* <Header title="AskDEV" /> */}
+
     <Directory />
   </div>
 );
