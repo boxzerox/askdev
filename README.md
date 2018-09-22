@@ -1,12 +1,10 @@
-<p align="center">
-  <img src="./src/assets/logo.png" width="150px" /> 
-</p>
 
-<h1 align="center">React dApp Starter Kit</h1>
+
+<h1 align="center">AskDev</h1>
 
 <p align="center">
-  This is a starter-kit for creating a <strong>dApp</strong> on the <strong>nOS</strong> platform
-</p>
+  This is a developer messaging dapp on the <strong>nOS</strong> platform with incentivisation. 
+</p> 
 
 <p align="center">
   <a href="https://github.com/nos/create-nos-dapp/releases">
@@ -17,34 +15,7 @@
   </a>
 </p>
 
-## Getting started
-To get started, you can check out the nOS [API documentation](https://github.com/nos/client/blob/develop/docs/api.md)
 
-## Purpose
-The goal of this project is to provide a quickstart for creating nOS dApps with React and various dependencies already installed and configured.
-
-In this repo you can find NEO specific tooling:
-* nOS functions exposed in a store
-* neon-js, providing extra NEO functionality
-
-Also general frameworks and tooling:
-* React, our framework of choice
-* JSS, CSS in JSS
-* Jest, a testing framework
-* Babel and Parcel, transpiling and compiling
-* Prettier and ESLint, kickass linting support
-
-Some plugins:
-* vendor prefixing, camelCase and global styling JSS plugins
-* env and React Babel presets
-* babel-polyfill
-* React and Prettier ESLint plugins
-
-And finally some testing and security:
-* Circle CI, automated builds/testing (coming soon)
-* Coveralls, code coverage (coming soon)
-* Deepscan and Better Code Hub, code analysis (coming soon)
-* Renovate and Gemnasium, dependency monitoring (coming soon)
 
 ## Setup
 ```bash
